@@ -1,0 +1,19 @@
+[project]
+name = "debatDsBot"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "nifle3", email = "kuper116rus.2005@gmail.com"},
+]
+dependencies = [
+    "discord-py>=2.4.0",
+    "pydantic>=2.8.2",
+    "pydantic-settings>=2.4.0",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "LGPL"}
+
+
+[tool.pdm]
+distribution = false
